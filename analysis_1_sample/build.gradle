@@ -1,0 +1,22 @@
+group 'com.github.albertosh.magic'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "net.ltgt.gradle:gradle-apt-plugin:0.6"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: "net.ltgt.apt"
+
+dependencies {
+    compile project(':analysis_1_compiler')
+    apt project(':analysis_1_compiler')
+}
