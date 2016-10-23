@@ -17,6 +17,6 @@ apply plugin: 'idea'
 apply plugin: 'net.ltgt.apt'
 
 dependencies {
-    compile project(':analysis_1_compiler')
-    apt project(':analysis_1_compiler')
+    compile project(':analysis_2_compiler')
+    apt project(':analysis_2_compiler')
 }
