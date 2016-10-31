@@ -35,6 +35,8 @@
       <module name="analysis_2_compiler_test" target="1.8" />
       <module name="analysis_2_sample_main" target="1.8" />
       <module name="analysis_2_sample_test" target="1.8" />
+      <module name="analysis_3_main" target="1.8" />
+      <module name="analysis_3_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

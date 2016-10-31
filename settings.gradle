@@ -3,3 +3,5 @@ include 'analysis_1_compiler'
 include 'analysis_1_sample'
 include 'analysis_2_compiler'
 include 'analysis_2_sample'
+include 'analysis_3'
+
