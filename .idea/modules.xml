@@ -18,6 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/analysis_3/analysis_3_main.iml" filepath="$PROJECT_DIR$/.idea/modules/analysis_3/analysis_3_main.iml" group="analysis_3" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/analysis_3/analysis_3_test.iml" filepath="$PROJECT_DIR$/.idea/modules/analysis_3/analysis_3_test.iml" group="analysis_3" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_1/generation_1.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_1/generation_1.iml" group="generation_1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_1/generation_1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_1/generation_1_main.iml" group="generation_1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_1/generation_1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_1/generation_1_test.iml" group="generation_1" />
     </modules>
   </component>
 </project>
