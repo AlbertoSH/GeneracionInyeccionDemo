@@ -1,6 +1,8 @@
 package com.github.albertosh.magic.analysis_2.compiler;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -23,7 +25,7 @@ import static javafx.scene.input.KeyCode.M;
 })
 public class Compiler extends AbstractProcessor {
 
-    private Map<String, List<TypeMirror>> graph = new HashMap<>();
+    private Map<TypeMirror, List<TypeMirror>> graph = new HashMap<>();
 
     @Override
     public SourceVersion getSupportedSourceVersion() {
@@ -74,7 +76,7 @@ public class Compiler extends AbstractProcessor {
     }
 
     private void analyzeDependencies(TypeElement klass, ExecutableElement constructor) {
-        graph.put(klass.getQualifiedName().toString(),
+        graph.put(klass.asType(),
                 constructor.getParameters()
                         .stream()
                         .map(Element::asType)
