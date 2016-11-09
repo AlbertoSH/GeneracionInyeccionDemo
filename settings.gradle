@@ -5,4 +5,7 @@ include 'analysis_2_compiler'
 include 'analysis_2_sample'
 include 'analysis_3'
 include 'generation_1'
+include 'generation_2_compiler'
+include 'generation_2_sample'
+include 'generation_2_compiler'
 

@@ -37,8 +37,16 @@
       <module name="analysis_2_sample_test" target="1.8" />
       <module name="analysis_3_main" target="1.8" />
       <module name="analysis_3_test" target="1.8" />
+      <module name="demo_main" target="1.8" />
+      <module name="demo_test" target="1.8" />
       <module name="generation_1_main" target="1.8" />
       <module name="generation_1_test" target="1.8" />
+      <module name="generation_2_compiler_main" target="1.8" />
+      <module name="generation_2_compiler_test" target="1.8" />
+      <module name="generation_2_main" target="1.5" />
+      <module name="generation_2_sample_main" target="1.8" />
+      <module name="generation_2_sample_test" target="1.8" />
+      <module name="generation_2_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

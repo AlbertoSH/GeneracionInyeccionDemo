@@ -4,10 +4,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../analysis_3">
       <excludeFolder url="file://$MODULE_DIR$/../../../analysis_3/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../analysis_3/build" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../analysis_3/build/classes" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../analysis_3/build/dependency-cache" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../analysis_3/build/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

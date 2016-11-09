@@ -21,6 +21,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_1/generation_1.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_1/generation_1.iml" group="generation_1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_1/generation_1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_1/generation_1_main.iml" group="generation_1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_1/generation_1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_1/generation_1_test.iml" group="generation_1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_2_compiler/generation_2_compiler.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_2_compiler/generation_2_compiler.iml" group="generation_2_compiler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_2_compiler/generation_2_compiler_main.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_2_compiler/generation_2_compiler_main.iml" group="generation_2_compiler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_2_compiler/generation_2_compiler_test.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_2_compiler/generation_2_compiler_test.iml" group="generation_2_compiler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_2_sample/generation_2_sample.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_2_sample/generation_2_sample.iml" group="generation_2_sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_2_sample/generation_2_sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_2_sample/generation_2_sample_main.iml" group="generation_2_sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/generation_2_sample/generation_2_sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/generation_2_sample/generation_2_sample_test.iml" group="generation_2_sample" />
     </modules>
   </component>
 </project>
