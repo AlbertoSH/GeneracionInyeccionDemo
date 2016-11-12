@@ -8,4 +8,6 @@ include 'generation_1'
 include 'generation_2_compiler'
 include 'generation_2_sample'
 include 'generation_2_compiler'
+include 'injection_1_sample'
+include 'injection_1_compiler'
 

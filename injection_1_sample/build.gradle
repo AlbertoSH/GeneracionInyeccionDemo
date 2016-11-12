@@ -1,0 +1,29 @@
+group 'com.github.albertosh.magic'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "net.ltgt.gradle:gradle-apt-plugin:0.6"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.ltgt.apt'
+apply plugin: 'application'
+
+mainClassName = "com.github.albertosh.magic.injection_1.sample.Main"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':injection_1_compiler')
+    apt project(':injection_1_compiler')
+}

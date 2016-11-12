@@ -47,6 +47,12 @@
       <module name="generation_2_sample_main" target="1.8" />
       <module name="generation_2_sample_test" target="1.8" />
       <module name="generation_2_test" target="1.5" />
+      <module name="injection_1_compiler_main" target="1.8" />
+      <module name="injection_1_compiler_test" target="1.8" />
+      <module name="injection_1_main" target="1.8" />
+      <module name="injection_1_sample_main" target="1.8" />
+      <module name="injection_1_sample_test" target="1.8" />
+      <module name="injection_1_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

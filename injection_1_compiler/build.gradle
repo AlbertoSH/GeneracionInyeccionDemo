@@ -1,0 +1,11 @@
+version 'unspecified'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile files("libs/tools.jar")  // tools.jar from jdk
+}
