@@ -10,4 +10,6 @@ include 'generation_2_sample'
 include 'generation_2_compiler'
 include 'injection_1_sample'
 include 'injection_1_compiler'
+include 'injection_2_sample'
+include 'injection_2_compiler'
 

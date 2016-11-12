@@ -53,6 +53,10 @@
       <module name="injection_1_sample_main" target="1.8" />
       <module name="injection_1_sample_test" target="1.8" />
       <module name="injection_1_test" target="1.8" />
+      <module name="injection_2_compiler_main" target="1.8" />
+      <module name="injection_2_compiler_test" target="1.8" />
+      <module name="injection_2_sample_main" target="1.8" />
+      <module name="injection_2_sample_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

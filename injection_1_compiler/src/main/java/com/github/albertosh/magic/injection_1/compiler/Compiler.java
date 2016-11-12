@@ -78,7 +78,7 @@ public class Compiler extends AbstractProcessor {
             List<JCTree> members = new ArrayList<>();
             classNode.getMembers().forEach(members::add);
 
-            JCTree.JCMethodDecl getter = injectGetter();
+            JCTree.JCMethodDecl getter = buildGetterNode();
             members.add(getter);
 
             JCTree[] asArray = members.toArray(new JCTree[members.size()]);
@@ -87,7 +87,7 @@ public class Compiler extends AbstractProcessor {
             result = classNode;
         }
 
-        private JCTree.JCMethodDecl injectGetter() {
+        private JCTree.JCMethodDecl buildGetterNode() {
             JCTree.JCModifiers modifiers = make.Modifiers(Flags.PUBLIC);
 
             String fieldName = field.getSimpleName().toString();
